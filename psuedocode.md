@@ -8,12 +8,12 @@ PROGRAM TiketKereta_Cpp
 DEKLARASI:
   struct Kereta {
     string kodeKereta
-    string namaKereta
-    string asal
+    string namaKereta           
+    string asal    
     string tujuan
     string tanggal
     string jam
-    string kelas
+    string kelas      
     int harga
     int kursiTersedia
   }
