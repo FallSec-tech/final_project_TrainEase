@@ -97,3 +97,20 @@ Intinya, setiap alat dipilih karena:
 3. Sudah cukup buat fungsi yang diinginkan.
 
 Semoga gampang dipahami ya!
+
+## 7. Cara Menjalankan Program
+1. Buka terminal/Command Prompt di folder proyek ini (`final_project`).
+2. Kompilasi kodenya:
+   ```
+   g++ -std=c++17 trainease.cpp -o trainease
+   ```
+   (Pastikan `g++` sudah terpasang.)
+3. Jalankan program:
+   - Linux/macOS: `./trainease`
+   - Windows (PowerShell/CMD): `trainease.exe`
+4. Ikuti instruksi di layar:
+   - Ketik nomor kereta, tekan Enter.
+   - Isi jumlah penumpang.
+   - Isi nama & NIK tiap penumpang (tekan Enter setelah setiap input).
+   - Jawab konfirmasi dengan `Y` atau `T`.
+5. Tiket akan tercetak di layar kalau memilih `Y`.
