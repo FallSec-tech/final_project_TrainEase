@@ -236,5 +236,5 @@ int main() {
     }
 
     cout << "\nTerima kasih sudah menggunakan program ini.\n";
-    return 0;
+    return 0; 
 }
